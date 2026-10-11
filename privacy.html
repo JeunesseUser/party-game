@@ -1,50 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Party Game</title>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; color: #333; }
-        h1 { color: #5e35b1; border-bottom: 2px solid #5e35b1; padding-bottom: 10px; }
-        h2 { color: #4527a0; margin-top: 20px; }
-        p, li { font-size: 16px; }
-        ul { padding-left: 20px; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <title>Privacy Policy — Party HUB</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; line-height: 1.65; max-width: 800px; margin: 0 auto; padding: 20px; color: #333; }
+    h1 { color: #5e35b1; border-bottom: 2px solid #5e35b1; padding-bottom: 10px; }
+    h2 { color: #4527a0; margin-top: 25px; }
+    p, li { font-size: 16px; }
+    ul { padding-left: 20px; }
+    a { color: #4527a0; }
+    .muted { color: #555; }
+    .notice { background: #f7f5fc; border-left: 4px solid #5e35b1; padding: 12px 16px; }
+  </style>
 </head>
 <body>
-    <h1>Privacy Policy</h1>
-    <p>Last updated: July 2026</p>
-    <p>This privacy policy governs your use of the mobile application ("Application") created by JeuVerse ("Developer"). The Application is a mobile party game suitable for players of all ages.</p>
+  <h1>Privacy Policy — Party HUB</h1>
+  <p><strong>Last updated: October 11, 2026</strong></p>
+  <p>Party HUB: Spy &amp; Word Games ("Party HUB" or the "App") is provided by JeuVerse, an independent app developer ("we", "us"). This Privacy Policy describes how information is processed when you use our Android app, including its advertisements, anonymous Firebase authentication, and optional Google Play subscriptions.</p>
 
-    <h2>1. Information Collection and Use</h2>
-    <p>The Application does not explicitly collect or require any personally identifiable information (such as your name, address, or phone number) to function. However, the Application uses third-party services that may collect information used to identify you.</p>
-    <p>These third-party services include:</p>
-    <ul>
-        <li><strong>Google Play Services</strong> (Android)</li>
-        <li><strong>Google AdMob</strong> (Ad Network)</li>
-        <li><strong>Firebase Analytics</strong> (Analytics)</li>
-    </ul>
+  <h2>1. Information we process</h2>
+  <p>You can play without providing your name, email address, or phone number. However, our app and its third-party services may process the following information:</p>
+  <ul>
+    <li><strong>Anonymous account identifiers.</strong> Firebase Authentication creates an anonymous user ID (UID) for an app installation. Firebase may also process an IP address, device/app metadata, and authentication-related information to provide and protect sign-in.</li>
+    <li><strong>Advertising and usage information.</strong> Google AdMob may process advertising identifiers, IP address (which may indicate approximate location), app interactions, ad views, and diagnostic data. Advertising availability and personalization depend on applicable consent and device settings.</li>
+    <li><strong>Subscription information.</strong> When you choose a subscription, Google Play handles payment processing. The App receives purchase status and related identifiers through Google Play Billing to determine whether ads should be removed. We do not receive your full card number. Google Play retains its own payment and order records.</li>
+    <li><strong>Technical data.</strong> SDKs may process device/app information needed for security, service delivery, and diagnostics.</li>
+    <li><strong>Support requests.</strong> If you email us, we receive the email address and information you include so we can respond.</li>
+  </ul>
+  <p>Cloud Firestore is configured for possible secure storage of account entitlements. In the current Party HUB implementation, it does not yet automatically store a complete purchase history. We will update this policy before implementing additional server-side purchase recording.</p>
 
-    <h2>2. Data Collected by Third Parties (Advertising and Analytics)</h2>
-    <p>Our third-party advertising partner (Google AdMob) and analytics partner (Firebase) may collect and process certain data, including:</p>
-    <ul>
-        <li>Device identifiers (such as Google Advertising ID or Apple IDFA).</li>
-        <li>IP address and general location data.</li>
-        <li>App performance logs, crash data, and gameplay statistics.</li>
-    </ul>
-    <p>This data is used solely to provide analytics, monitor application stability, and deliver advertisements within the game.</p>
+  <h2>2. Photos, custom packs, and local settings</h2>
+  <p>If you choose photos to create custom picture packs, those photos and pack details are handled locally on your device by the features currently implemented in the App. The current App code does not upload these selected photos to our Firebase database. Local settings, including language and game preferences, may be saved on your device. If you choose a different photo-sharing feature in the future, we will update this policy and request permissions as necessary.</p>
 
-    <h2>3. Children's Privacy (COPPA Compliance)</h2>
-    <p>Because this Application is designed for a general audience and can be played by children, we take extra precautions to protect children's privacy. We do not knowingly collect personal information from children under 13 (or under 16 in the EU). For younger audiences, third-party ad networks are configured to serve <strong>non-personalized ads</strong> and restrict data collection in accordance with COPPA and Google Play/Apple App Store family policies.</p>
+  <h2>3. Third-party services</h2>
+  <p>Depending on the features used, the App works with:</p>
+  <ul>
+    <li><strong>Google AdMob / Google Mobile Ads</strong> — advertisements, advertising measurement, and abuse prevention.</li>
+    <li><strong>Google Play Services and Google Play Billing</strong> — Android services and subscription payments.</li>
+    <li><strong>Firebase Authentication</strong> — automatically generated anonymous sign-in identifier.</li>
+    <li><strong>Cloud Firestore</strong> — database infrastructure, if account entitlements are later stored.</li>
+  </ul>
+  <p>These services are provided by Google and are subject to Google's applicable privacy terms. The information these providers process depends on the features and consent settings in use.</p>
+  <p>See <a href="https://policies.google.com/privacy">Google Privacy Policy</a> for more information.</p>
 
-    <h2>4. GDPR and EU User Rights</h2>
-    <p>If you reside in the European Economic Area (EEA), you are protected by the General Data Protection Regulation (GDPR). You have the right to access, update, or delete the information third parties hold about you, or to withdraw consent for personalized advertising at any time via the in-game settings or your device's operating system settings.</p>
+  <h2>4. Why we process information</h2>
+  <p>Information is processed as needed to provide game features, maintain anonymous authentication, display and measure ads where permitted, process and restore Google Play purchases, prevent fraud, respond to support requests, and operate and secure the App. We do not sell personal information to advertisers.</p>
 
-    <h2>5. Changes to This Privacy Policy</h2>
-    <p>We may update our Privacy Policy from time to time. You are advised to review this page periodically for any changes. Changes are effective immediately after they are posted on this page.</p>
+  <h2>5. Privacy choices and subscriptions</h2>
+  <p>Where required, the App offers advertising privacy choices, which you can revisit through its privacy settings. Android also offers controls for advertising identifiers. An optional paid subscription removes in-app ads for the period during which the entitlement is valid. Subscription payments, renewal, cancellation, and refunds are managed by Google Play. You can manage your subscription at <a href="https://play.google.com/store/account/subscriptions">Google Play subscriptions</a>. Cancelling an auto-renewing subscription typically leaves paid access available through the end of the paid period, subject to Google Play's purchase status and any refunds or revocations.</p>
 
-    <h2>6. Contact Us</h2>
-    <p>If you have any questions or suggestions about this Privacy Policy, do not hesitate to contact the developer at: <strong>struslanrz@gmail.com</strong></p>
+  <h2 id="data-deletion">6. Retention, deletion, and user rights</h2>
+  <p>Information is kept for as long as necessary to provide the relevant service, meet legal requirements, resolve disputes, or prevent abuse. Firebase anonymous accounts are not automatically deleted merely because a user uninstalls the App. Google Play controls payment records according to its own policies. Local custom packs and preferences are stored on-device and may be removed by clearing app data or uninstalling the App, although that action does not necessarily delete information held by third parties.</p>
+  <p>To request deletion of your Party HUB anonymous account or associated data, use the in-app <strong>Request data deletion</strong> option or visit our <a href="delete-data.html">Account and data deletion request</a> page. You can also email <a href="mailto:struslanrz@gmail.com?subject=Party%20HUB%20data%20deletion%20request">struslanrz@gmail.com</a>. If possible, include your Firebase UID from the app's deletion request, which helps us locate an anonymous record. Do not send payment-card data or passwords.</p>
+  <p>We will review requests and delete account information and associated data that we control where required, subject to any lawful retention obligations. Requests concerning Google Play payment records may also need to be made through Google. If you are in the EEA or another jurisdiction granting privacy rights, you may request access, correction, deletion, or other available rights by contacting us.</p>
+
+  <h2>7. Children and families</h2>
+  <p>Party HUB is a social game. We do not ask players to enter their name, email address, or date of birth as a condition of gameplay. We do not knowingly solicit personal information from children. If you are a parent or guardian and believe a child's information requires attention, contact us to request review or deletion. Advertising consent, age eligibility, and any relevant Google Play Families requirements depend on the audience settings and actual SDK configuration of the released App; we do not claim that every advertisement is automatically non-personalized for every minor.</p>
+
+  <h2>8. Security and international processing</h2>
+  <p>Google's services use secure transport for the SDK data described above. Data may be processed in countries where Google and its processors operate. We use access restrictions for Firebase account data, and users are not allowed to edit their own subscription entitlement records directly in Firestore. No system can guarantee absolute security.</p>
+
+  <h2>9. Changes to this policy</h2>
+  <p>We may update this Privacy Policy as the App changes. The most recent version and effective date will be posted on this page. Material changes may require additional notices or consent where applicable.</p>
+
+  <h2>10. Contact us</h2>
+  <p>Developer: <strong>JeuVerse (Party HUB)</strong><br>
+     Privacy and support contact: <a href="mailto:struslanrz@gmail.com">struslanrz@gmail.com</a></p>
+  <p class="muted">This policy covers the version and capabilities described above; store disclosures must also reflect other simultaneously distributed versions and enabled services.</p>
 </body>
 </html>
